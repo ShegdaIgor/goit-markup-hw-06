@@ -1040,8 +1040,7 @@ button {
     width: 200px;
     height: 50px;
     align-self: center;
-    /* left: 700px;
-    top: 713px; */
+
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 700;
@@ -1060,9 +1059,19 @@ button {
     transition: var(--transition-dur-and-func);
 }
 
+.modal-form-condns {
+    color: var(--accent-color);
+}
+
 /* ============ /modal form =========== */
 
 /* =========== modal form footer ======= */
+
+.modal-form-footer {
+    margin-left: 93px;
+    padding-top: 72px;
+}
+
 .modal-caption-footer {
     font-family: var(--primary-font);
     font-style: normal;
@@ -1075,18 +1084,8 @@ button {
     color: var(--header-color);
 }
 
-.modal-form-footer {
-    position: absolute;
-    /* width: 570px; */
-    height: 86px;
-    left: 735px;
-    top: 2750px;
-}
-
 .modal-form-field-desc-footer {
     display: flex;
-    flex-direction: row;
-
     margin-bottom: 20px;
 
     font-family: var(--primary-font);
@@ -1102,8 +1101,9 @@ button {
 
 .modal-form-input-footer-wrapper {
     display: flex;
-
-    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 }
 
 .modal-form-input-footer {
@@ -1114,13 +1114,18 @@ button {
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    color: rgba(255, 255, 255, 0.6);
     transition: border var(--transition-dur-and-func);
+}
+
+.modal-form-input-footer:focus {
+    outline: var(--header-color);
+    border-color: var(--header-color);
 }
 
 .modal-form-btn-footer {
     display: flex;
 
-    transform: translate(185%, -101%);
     margin-right: 0;
     justify-content: center;
     align-items: center;

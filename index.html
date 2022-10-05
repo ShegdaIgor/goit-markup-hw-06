@@ -769,29 +769,29 @@
                             </ul>
                         </div>
                     </li>
-                </ul>
-            </div>
-            <form class="modal-form-footer">
-            <p class="modal-caption-footer">Підпишіться на розсилку</p>
-            <label class="modal-form-field-footer"
-                >
-                <!-- <span class="modal-form-field-desc-footer"></span> -->
-                <span class="modal-form-input-footer-wrapper">
-                    <input
-                        name="user-email"
-                        type="text"
-                        class="modal-form-input-footer"
-                        placeholder="E-mail"
-                        required
-                    />
-                </span>
-            </label>
-            </svg>
+                    <li>
+                        <form class="modal-form-footer">
+                            <p class="modal-caption-footer">
+                                Підпишіться на розсилку
+                            </p>
+                            <label class="modal-form-field-footer">
+                                <span class="modal-form-input-footer-wrapper">
+                                    <input
+                                        name="user-email"
+                                        type="text"
+                                        class="modal-form-input-footer"
+                                        placeholder="E-mail"
+                                        required
+                                    /></svg>
             <button type="submit" class="modal-form-btn-footer">Підписатися <svg class="modal-close-btn-icon" width="24" height="24">
                         <use href="./images/sprite.svg#icon-icon-send"></use>
-                    </svg></button>
-                </form>
-            
+                    </button></svg>
+                                </span>
+                            </label>
+                        </form>
+                    </li>
+                </ul>
+            </div>
         </footer>
 
         <div class="backdrop is-hidden" data-modal>
@@ -868,9 +868,7 @@
                             name="user-message"
                             class="modal-form-message"
                             placeholder="Введіть текст"
-                        >
-</textarea
-                        >
+                        ></textarea>
                     </label>
                     <label class="modal-form-check-wrapper">
                         <input
@@ -889,7 +887,7 @@
                             ></use>
                         </svg>
                         Погоджуюся з розсилкою та приймаю&nbsp;
-                        <a href="">Умови договору</a>
+                        <a class="modal-form-condns" href="">Умови договору</a>
                     </label>
 
                     <button type="submit" class="modal-form-btn">
