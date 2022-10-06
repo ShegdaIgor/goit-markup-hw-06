@@ -28,14 +28,6 @@ body {
     letter-spacing: 0.03em;
 }
 
-.list {
-    list-style: none;
-}
-
-.link {
-    text-decoration: none;
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -78,6 +70,14 @@ button {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .title {
@@ -163,7 +163,7 @@ button {
     color: var(--accent-color);
 }
 
-.accent {
+.accent-logo {
     color: var(--accent-color);
 }
 
@@ -732,6 +732,10 @@ button {
     line-height: 1.19;
     text-decoration: none;
     transition: color var(--transition-dur-and-func);
+}
+
+.accent-logo-footer {
+    color: var(--accent-color);
 }
 
 .foot-address {
